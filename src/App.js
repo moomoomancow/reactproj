@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Poopy</h1>
       </header>
     </div>
   );
