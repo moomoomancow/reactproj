@@ -37,9 +37,13 @@
     transform: rotate(360deg);
   }
 }
+#box{
+  display: grid;
 
+  background-color: magenta;
+
+}
 #setup{
-  color: blue;
 }
 #reveal{
   width: 100px;
