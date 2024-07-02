@@ -39,14 +39,80 @@
 }
 #box{
   display: grid;
-
-  background-color: magenta;
-
+  border-color: black;
+  border-radius: 10px;
+  background-color: rgb(234, 233, 195);
+  box-shadow: 0 10px rgba(21, 17, 17, 0.305);
 }
 #setup{
+  border: 10px;
+
 }
 #reveal{
-  width: 100px;
-  height: 50px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:#2b4f6a;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #6d4242;
+
+}
+#reveal:hover{
+  background-color:  #5869c2;
+  box-shadow:  0 9px #5869c2; ;
+}
+#reveal:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #2b4f6a;
+  transform: translateY(4px);
+}
+#littlebox{
+  margin-top: 100px;
+  display: flex;
+
+  align-content: center;
+  align-self: flex-end;
+  justify-content: center;
+}
+
+#another{
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px rgb(185, 192, 201);
+}
+#another:hover{
+  background-color: #969aa2;
+}
+#another:active{
+  background-color: #282c34;
+  transform: translateY(4px);
+}
+#revealed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin-top: -1px;
+  padding-top: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+#title{
   align-self: center;
+}
+#terror{
+  text-align: center;
+  font-weight: 900;
+  width: 600px;
+  height: 700px;
+  background-image: url("https://ih1.redbubble.net/image.679575493.7390/st,large,507x507-pad,600x600,f8f8f8.u1.webp");
+  background-repeat: no-repeat;
 }
