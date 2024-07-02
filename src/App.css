@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#setup{
+  color: blue;
+}
+#reveal{
+  width: 100px;
+  height: 50px;
+  align-self: center;
 }
